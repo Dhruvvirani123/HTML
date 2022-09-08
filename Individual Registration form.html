@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+
+        body
+        {
+            width: 100%;
+        }
+        html
+        {
+            background-color: rgb(177, 255, 255);
+            margin: auto;
+            /* text-align: center; */
+        }
+
+        .Submit-button
+        {
+        background-color: rgb(32, 13, 206);
+        color: white;
+        border: none;
+        padding: 10PX;
+        border-radius: 8px;
+        }
+
+       .Submit-button:hover
+       { 
+          background-color: rgb(240, 80, 101);
+          color: rgb(2, 0, 2);
+        }
+
+        /* .Submit-button:active
+        {
+          opacity: 0.20s;
+        } */
+
+        .Reset-button
+        {
+        background-color: rgb(32, 13, 206);
+        color: white;
+        border: none;
+        padding: 10PX;
+        border-radius: 8px;           
+        }
+
+       .Reset-button:hover
+        { 
+          background-color: rgb(238, 101, 112);
+          color: rgb(2, 0, 2);
+        }
+
+        /* .Reset-button:active
+        {
+          opacity: 0.20s;
+        } */
+
+        h1
+        {
+            background: linear-gradient(170deg,rgb(96, 109, 233), rgb(132, 212, 252));
+            border-radius: 5px;
+            width: auto;
+        }
+        .div
+        {
+            text-align: center;
+        }
+        .div1
+        {
+            text-align: left; 
+             /* margin-left: 30px; 
+             margin-top: 30px;      
+             width: 125px; */
+            position: relative;
+            left:400px;
+            top: -20px;
+        }
+
+        .div2
+        {
+            text-align: left;
+        }
+
+        .div3
+        {
+            text-align: left;
+        }
+
+        .div4
+        {
+            text-align: right;
+            position: relative;
+            right: 750px;
+            top: -21px;
+        }
+
+        .div5
+        {
+            text-align: right;
+            position: relative;
+            right: 750px;
+            top: -21px;
+        }
+
+        .div6
+        {
+            text-align: right;
+            position: relative;
+            right: 869px;
+            top: -17px;
+        }
+
+        .div7
+        {
+            text-align: right;
+            position: relative;
+            right: 319px;
+            top: -38px;
+        }
+
+        .div8
+        {
+            text-align: left;
+            position: relative;
+            left:350px;
+            top: -20px;
+        }
+
+        .div9
+        {
+            text-align: right;
+            position: relative;
+            right: 325px;
+            top: -40px;
+        }
+
+        .div10
+        {
+            text-align: left;
+            position: relative;
+            left: 385px;
+            top: -20px;
+        }
+
+        .div11
+        {
+            text-align: center;
+        }
+
+        .div12
+        {
+            text-align: center;
+        }
+        .star
+        {
+            color: red;
+        }
+
+    </style>
+<head>
+    <title>Individual Registration</title>
+</head>
+<body>
+    
+
+    <h1 style="color: rgb(179, 33, 33); text-align: center;">Individual Registration</h1>
+    <h3 style="color: rgb(167, 61, 61);">User particulars</h3><br>
+
+    <div class="div">
+    <label for="Login ID"> <span class="star">*</span>Login ID  : </label>
+    <input type="text" required placeholder=""></div><br>
+
+        <div class="div11">
+    <label for="password"> <span class="star">*</span>Password : </label>
+    <input type="text" required placeholder=""></div><br>
+
+
+    <div class="div12">
+    <label for="confirm password"> <span class="star">*</span>Confirm Password : </label>
+    <input type="text" required placeholder=""></div><br>
+
+    <h3 style="color: rgb(170, 53, 53); text-align: left;">personal particulars</h3><br>
+
+    <div class="div1">
+    <label for="Salutation" style="text-align: left;"> <span class="star">*</span>Salutation :</label>
+    <select name="Salutation" id="Salutation">
+        <option value="select">--Select--</option>
+        <option value="58">85</option>
+        <option value="95">95</option>
+        <option value="105">105</option>
+        <option value="115">115</option>
+    </select><br>
+
+
+    <div class="div4">
+        <label for="First Name"> <span class="star">*</span>First Name :</label>
+        <input type="text" required placeholder=""></div>
+
+    <div class="div2">
+    <label for="Middel Name"> <span class="star">*</span>Middel Name : </label>
+    <input type="text" required placeholder=""></div>
+
+    <div class="div5">
+        <label for="Last Name"> <span class="star">*</span>Last Name :</label>
+        <input type="text" required placeholder=""></div>
+
+    <div class="div3">
+    <label for="Resident Status"> <span class="star">*</span>Resident Status :</label>
+    <select name="Resident Status" id="Resident Status">
+        <option value="select">--Select--</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select></div>
+
+    <div class="div6">
+        <label for="Country"> <span class="star">*</span>Country :</label>
+        <select name="Country" id="Country">
+            <option value="select">--Select--</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="Japan">Japan</option>
+            <option value="Germany">Germany</option>
+            <option value="France">France</option>
+        </select></div>
+
+    <div class="div3"></div>
+    <label for="Email-ID"> <span class="star">*</span>Email ID : </label>
+    <input type="text" required placeholder=""></div>
+
+
+    <div class="div7">
+        <label for="Mobile Number"> <span class="star">*</span>Mobile Number :</label>
+        <input type="text" required placeholder=""></div><br>
+
+
+    <h3 style="color: rgb(172, 54, 54);">Account Particulars</h3><br>
+
+    <div class="div8">
+    <label for="15 Dig Account No"> <span class="star">*</span>15 Dig Bank Account No :</label>
+    <input type="text" required placeholder=""></div>
+
+
+    <div class="div9">
+    <label for="Nick Name"> <span class="star">*</span>Nick Name :</label>
+    <input type="text" required placeholder=""></div>
+
+    <div class="div10">
+    <label for="Fund Transfer"><span class="star">*</span>Fund Transfer :</label>
+    <select name="Fund Transfer" id="Fund Transfer">
+        <option value="select">--Select--</option>
+        <option value="NEFT">NEFT</option>
+        <option value="RTGS">RTGS</option>
+        <option value="UPI">UPI</option>
+        <option value="YONO">YONO</option>
+    </select></div>
+
+
+    <h3 style="color: rgb(173, 70, 70); text-align: left;">DELARATION</h3>
+    <p style="text-align: left;">
+        I have read, understood and hereby agree to the Terms and condation in respect of all product and channels.
+    </p>
+    <p style="text-align: left;">I understand that any changes in the terms and condation applicable to this relationship would be made avalible to me on request at any IOB brances. I confirm that all account under this login name are operated singly and in case of joint account operated by either or survivor/anyone or survior(s) under his/her joint name respectively. I do heclar that information furnished in this form is true to the best of my knowledge and belief. </p> <br>
+
+    <label for="accept condition"></label>
+    <input type="radio"> I accept Terms and conditions <span class="star">*</span><br><br>
+
+    <button class="Submit-button"> Submit </button>
+
+    
+    <button class="Reset-button">Reset</button> 
+    <!-- <input type="submit" style="text-align: center; margin-left: 600px" value="submit"> -->
+    
+</body>
+</html>
